@@ -6,7 +6,7 @@ const { body, validationResult } = require('express-validator');
 const bcrypt = require('bcryptjs')
 var jwt = require('jsonwebtoken');
 const axios = require('axios')
-const fetch = require('../middleware/fetchdetails');
+const fetch = require('../Middleware/fetchdetails');
 const jwtSecret = "HaHa"
 // var foodItems= require('../index').foodData;
 // require("../index")
